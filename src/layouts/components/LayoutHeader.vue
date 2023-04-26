@@ -79,16 +79,6 @@ const darkThemeSwitch = () => {
   StyleProvider(settingStore.darkTheme ? Themes.dark : null)
 }
 // 刷新页面
-const { loading, startLoading, endLoading } = useLoading()
-const reloadPage = () => {
-  startLoading()
-  LoadingBar.start()
-  routeStore.reloadPage()
-  setTimeout(() => {
-    endLoading()
-    LoadingBar.finish()
-  }, 1000)
-}
 const goBack = () => {
   settingStore.animationType = 'fade-out'
   emitter.emit('appBarBackClick')

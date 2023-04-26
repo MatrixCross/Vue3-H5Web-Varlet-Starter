@@ -26,7 +26,7 @@ specifiers:
   mitt: ^3.0.0
   naive-ui: ^2.34.3
   pinia: ^2.0.35
-  postcss-px-to-viewport: ^1.1.1
+  postcss-px-to-viewport-8-plugin: ^1.2.2
   prettier: ^2.8.7
   sass: ^1.62.0
   simple-git-hooks: ^2.8.1
@@ -72,7 +72,7 @@ devDependencies:
   eslint-plugin-vue: 9.10.0_eslint@8.37.0
   lint-staged: 13.2.1
   naive-ui: 2.34.3_vue@3.2.47
-  postcss-px-to-viewport: 1.1.1
+  postcss-px-to-viewport-8-plugin: 1.2.2
   prettier: 2.8.7
   sass: 1.62.0
   simple-git-hooks: 2.8.1
@@ -4245,11 +4245,10 @@ packages:
       pathe: 1.1.0
     dev: true
 
-  /postcss-px-to-viewport/1.1.1:
-    resolution: {integrity: sha512-2x9oGnBms+e0cYtBJOZdlwrFg/mLR4P1g2IFu7jYKvnqnH/HLhoKyareW2Q/x4sg0BgklHlP1qeWo2oCyPm8FQ==}
+  /postcss-px-to-viewport-8-plugin/1.2.2:
+    resolution: {integrity: sha512-ej1qFciV9jHFCAFf1/R4F7Fh34MjFoFqtr4kW02NZkCayzMRPzmPx/3Mf5f6fhXvZ9NEqULrHREce1rRAUwwLw==}
     dependencies:
       object-assign: 4.1.1
-      postcss: 8.4.21
     dev: true
 
   /postcss-selector-parser/6.0.11:
