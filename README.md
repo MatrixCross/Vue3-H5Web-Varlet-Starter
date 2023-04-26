@@ -4,9 +4,9 @@
 [![Issues](https://img.shields.io/github/issues/Wyatex/Vue3-starter)](https://github.com/Wyatex/Vue3-starter/issues)
 [![License](https://img.shields.io/badge/License-MIT-yellowgreen)](https://github.com/Wyatex/Vue3-starter/blob/master/LICENSE)
 
-> 一套集成了 Vite 3.x + Vue 3.x + TypeScript + Vue Router + Pinia + Axios + ESlint 等套件的快速开发模板。
+> 一套集成了 Vite 4.x + Vue 3.x + TypeScript + Vue Router + Pinia + Axios + ESlint 等套件的快速开发模板。
 
-[在线预览](https://vue3-pc-web-starter.wyatex.online/)
+[在线预览](https://vue3-h5-varlet-starter.wyatex.online/)
 
 ## 快速开始
 
@@ -15,7 +15,7 @@
 使用 git 进行克隆
 
 ```sh
-git clone https://github.com/Wyatex/Vue3-starter.git
+git clone https://github.com/MatrixCross/Vue3-H5Web-Varlet-Starte.git
 ```
 
 ### 安装依赖
@@ -51,7 +51,7 @@ pnpm build
 - JSX 处理：[@vitejs/plugin-vue-jsx](https://www.npmjs.com/package/@vitejs/plugin-vue-jsx)
 - 代码规范：[ESLint](https://eslint.org/)
 - 代码格式化：[Prettier](https://prettier.io/)
-- 组件库：[Naive-UI](https://www.naiveui.com/)
+- 组件库：[Varlet-UI](https://varlet.gitee.io/varlet-ui/)
 - Icon 库：[@iconify/json](https://www.npmjs.com/package/@iconify/json) + [@iconify/vue](https://www.npmjs.com/package/@iconify/vue) + [unplugin-icons](https://github.com/antfu/unplugin-icons) + [unocss-icon](https://unocss.dev/presets/icons)
 
 > icon 图标查找：[icones](https://icones.js.org/)
@@ -108,8 +108,5 @@ iconName.value = getIconName()
 
 ## 打包
 
-vite3 之后，生产和开发打包都统一使用 esbuild，无需安装 terser 进行压缩，速度更快，如果生产代码需要去除 console、debugger 等代码，直接配置 esbuild 即可。
+vite3 之后，默认使用 esbuild 进行压缩，速度更快，如果生产代码需要去除 console、debugger 等代码，直接配置 esbuild 即可。
 
-## UI 组件库
-
-本分支（master）使用的是 NaiveUI，后续会在其他分支使用其他的组件库，比如 ArcoDesign 和 Tdesign，敬请期待！
