@@ -72,7 +72,7 @@ const routeStore = useRouteStore()
 const route = useRoute()
 const router = useRouter()
 const openGithub = () => {
-  window.open('https://github.com/Wyatex/Vue3-starter')
+  window.open('https://github.com/MatrixCross/Vue3-H5Web-Vant-Starter')
 }
 const darkThemeSwitch = () => {
   settingStore.darkTheme = !settingStore.darkTheme
