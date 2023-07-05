@@ -10,13 +10,15 @@
 
 ## 快速开始
 
-### 下载项目
+### 创建项目
 
 使用 git 进行克隆
 
 ```sh
-git clone https://github.com/MatrixCross/Vue3-H5Web-Varlet-Starte.git
+pnpm create matrix-starter
 ```
+
+选择vue3 - varlet-ui
 
 ### 安装依赖
 
